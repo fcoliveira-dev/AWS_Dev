@@ -1,0 +1,970 @@
+{
+  "/ProductApiStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:templateFile",
+      "data": "ProductApiStack.template.json"
+    }
+  ],
+  "/ProductApiStack/GetProduct": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/QueryProducts": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/InsertProduct": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/UpdateProduct": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/Options": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "code": "*",
+        "handler": "*",
+        "runtime": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "deployOptions": {
+          "stageName": "*"
+        }
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsApiUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsApiUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/GetProduct/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/GetProduct/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetProductB1843B98"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/GetProduct/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/QueryProducts/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/QueryProducts/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryProducts92A22C2F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/QueryProducts/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/InsertProduct/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/InsertProduct/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "InsertProduct0DF3D99C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/InsertProduct/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateProduct20A0C881"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/Options/ServiceRole": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "assumedBy": {
+          "principalAccount": "*",
+          "assumeRoleAction": "*"
+        },
+        "managedPolicies": [
+          {
+            "managedPolicyArn": "*"
+          }
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/Options/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Options66AB347B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/Options/LogGroup": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "logGroupName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPI63F140D0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Deployment": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "description": "*",
+        "api": "*",
+        "retainDeployments": "*"
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "aws:cdk:analytics:method",
+      "data": {
+        "addToLogicalId": [
+          {}
+        ]
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/DeploymentStage.dev": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "deployment": "*",
+        "stageName": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Endpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIEndpointEFF809AE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/GetProduct/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetProductServiceRole1936696A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/GetProduct/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/GetProduct/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetProductLogGroupBBEA82E9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/QueryProducts/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryProductsServiceRoleD77CF1D6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/QueryProducts/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/QueryProducts/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryProductsLogGroup1A3034F5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/InsertProduct/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "InsertProductServiceRole5EB83926"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/InsertProduct/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/InsertProduct/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "InsertProductLogGroup6A296243"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateProductServiceRole64AC773A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/UpdateProduct/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateProductLogGroup7549C63B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/Options/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "OptionsServiceRoleD547E5F2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/Options/Code/AssetBucket": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": "*"
+    }
+  ],
+  "/ProductApiStack/Options/LogGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "OptionsLogGroupF4E248B5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Deployment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIDeployment6846F2A77f47409054ac17b9f53db5fb376a525a"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/DeploymentStage.dev/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIDeploymentStagedev8E9CC706"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsDFDB6098"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/GET": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/POST": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "parent": "*",
+        "pathPart": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/GET/ApiPermission.ProductApiStackProductsAPI3D72C3BA.GET..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsGETApiPermissionProductApiStackProductsAPI3D72C3BAGETproductsC445F837"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/GET/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.GET..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsGETApiPermissionTestProductApiStackProductsAPI3D72C3BAGETproducts3AE03A57"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsGETDF356BB7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/POST/ApiPermission.ProductApiStackProductsAPI3D72C3BA.POST..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsPOSTApiPermissionProductApiStackProductsAPI3D72C3BAPOSTproducts98B0AC3C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/POST/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.POST..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsPOSTApiPermissionTestProductApiStackProductsAPI3D72C3BAPOSTproducts02C02161"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsPOST34EDE762"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/OPTIONS/ApiPermission.ProductApiStackProductsAPI3D72C3BA.OPTIONS..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsOPTIONSApiPermissionProductApiStackProductsAPI3D72C3BAOPTIONSproductsE30B9007"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/OPTIONS/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.OPTIONS..products": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsOPTIONSApiPermissionTestProductApiStackProductsAPI3D72C3BAOPTIONSproducts59F052E2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsOPTIONSCF3A9D9B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsid3B20EBA5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/GET": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/PUT": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/OPTIONS": [
+    {
+      "type": "aws:cdk:analytics:construct",
+      "data": {
+        "resource": "*",
+        "httpMethod": "*",
+        "integration": "*",
+        "options": "*"
+      }
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/GET/ApiPermission.ProductApiStackProductsAPI3D72C3BA.GET..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidGETApiPermissionProductApiStackProductsAPI3D72C3BAGETproductsid1DF91FDD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/GET/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.GET..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidGETApiPermissionTestProductApiStackProductsAPI3D72C3BAGETproductsid8B8EBB6A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidGET708AF44E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/PUT/ApiPermission.ProductApiStackProductsAPI3D72C3BA.PUT..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidPUTApiPermissionProductApiStackProductsAPI3D72C3BAPUTproductsid6D6FDAB9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/PUT/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.PUT..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidPUTApiPermissionTestProductApiStackProductsAPI3D72C3BAPUTproductsidC2A4E372"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/PUT/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidPUTE0303859"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/OPTIONS/ApiPermission.ProductApiStackProductsAPI3D72C3BA.OPTIONS..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidOPTIONSApiPermissionProductApiStackProductsAPI3D72C3BAOPTIONSproductsid63D34184"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/OPTIONS/ApiPermission.Test.ProductApiStackProductsAPI3D72C3BA.OPTIONS..products.{id}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidOPTIONSApiPermissionTestProductApiStackProductsAPI3D72C3BAOPTIONSproductsidB0E8CE21"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/ProductApiStack/ProductsAPI/Default/products/{id}/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ProductsAPIproductsidOPTIONS311A785B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, jsii runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}
